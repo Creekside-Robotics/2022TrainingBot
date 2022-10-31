@@ -35,6 +35,7 @@ public class DriveWithJoystickCommand extends CommandBase {
   public void execute() {
     double forwardSpeed = RobotContainer.joystick.getX();
     double turningSpeed = RobotContainer.joystick.getZ();
+    this.drivetrainSubsystem.setDrive(forwardSpeed, turningSpeed);
   }
 
   // Called once the command ends or is interrupted.
