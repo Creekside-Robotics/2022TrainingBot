@@ -33,8 +33,8 @@ public class DriveWithJoystickCommand extends CommandBase {
   // Called every time the scheduler runs while the command is scheduled.
   @Override
   public void execute() {
-    double forwardSpeed = RobotContainer.joystick.getX();
-    double turningSpeed = RobotContainer.joystick.getZ();
+    double forwardSpeed = -RobotContainer.joystick.getY();
+    double turningSpeed = RobotContainer.joystick.getX();
     this.drivetrainSubsystem.setDrive(forwardSpeed, turningSpeed);
   }
 

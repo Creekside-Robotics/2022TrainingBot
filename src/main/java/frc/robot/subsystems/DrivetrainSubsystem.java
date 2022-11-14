@@ -26,8 +26,8 @@ public class DrivetrainSubsystem extends SubsystemBase {
 
   // /** Creates a new ExampleSubsystem. */
   public DrivetrainSubsystem() {
-    leftControllerGroup.setInverted(true);
-    rightControllerGroup.setInverted(false);
+    leftControllerGroup.setInverted(false);
+    rightControllerGroup.setInverted(true);
   }
 
 

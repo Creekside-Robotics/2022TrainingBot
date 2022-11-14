@@ -15,12 +15,12 @@ package frc.robot;
 public final class Constants {
 
     public static final class DriveTrainConstants{
-        public static final int leftFrontCANID = 1;
+        public static final int leftFrontCANID = 2;
 
-        public static final int rightFrontCANID = 2;
+        public static final int rightFrontCANID = 1;
 
-        public static final int leftBackCANID = 3;
+        public static final int leftBackCANID = 4;
 
-        public static final int rightBackCANID = 4;
+        public static final int rightBackCANID = 3;
     }
 }
